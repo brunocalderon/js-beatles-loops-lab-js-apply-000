@@ -22,5 +22,7 @@ function iLoveTheBeatles(index) {
     text += "The number is " + i;
     i++;
   }
-  while (i < 10);
+  while (index = 7);
 }
+
+iLoveTheBeatles(7);
