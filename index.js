@@ -17,4 +17,10 @@ function johnLennonFacts(facts) {
   return theFacts;
 }
 
-function iLoveTheBeatles()
+function iLoveTheBeatles(index) {
+  do {
+    text += "The number is " + i;
+    i++;
+  }
+  while (i < 10);
+}
