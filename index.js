@@ -25,4 +25,5 @@ function iLoveTheBeatles(index) {
   do {
     return []
   }
+  while (index === 17);
 }
