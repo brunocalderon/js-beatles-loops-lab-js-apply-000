@@ -23,7 +23,7 @@ function iLoveTheBeatles(index) {
   }
   while (index === 7);
   do {
-    return []
+    return ["I love the Beatles!"];
   }
   while (index === 17);
 }
