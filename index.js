@@ -19,7 +19,7 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(index) {
   do {
-    return ["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"];
+    return [ 'I love the Beatles!' ];
   }
   while (index === 7);
 }
