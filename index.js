@@ -19,8 +19,7 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(index) {
   do {
-    text += "The number is " + i;
-    i++;
+    return 
   }
   while (index = 7);
 }
