@@ -25,7 +25,7 @@ function iLoveTheBeatles(index) {
         break;
       case 17:
           return ["I love the Beatles!"];
-        break
+        break;
       
     }
     if (index === 7)
