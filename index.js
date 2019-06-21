@@ -19,11 +19,17 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(index) {
   do {
+    switch (index) {
+      case 7:
+        return ["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"];
+        break;
+      case 17:
+          return ["I love the Beatles!"];
+        break
+      
+    }
+    if (index === 7)
     return ["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"];
   }
-  while (index === 7);
-  do {
-    return ["I love the Beatles!"];
-  }
-  while (index === 17);
+  while (index === 7 || index === 17);
 }
